@@ -1,6 +1,12 @@
+- defaults:
+    link:
+      relink: true
+
 - clean: ["~"]
 
 - link:
+    ~/.zshrc: zshrc
+    ~/.p10k.zsh: p10k.zsh
 
 - create:
     - ~/workspace
